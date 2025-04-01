@@ -127,27 +127,27 @@ const Home = () => {
             <div className="project-list auto-show">
                 <img src={project5} alt="" />
                 <p>ChatDAVE an AI built to help student with studies and assignment. Gemini API integration, mongoDB for database and ReactJs for framework</p>
-                <a href="">Demo <FaLink /></a>
+                <a href="https://chatdave.netlify.app/">Demo <FaLink /></a>
             </div>
             <div className="project-list auto-show">
                 <img src={project4} alt="" />
                 <p>A book-store website, learning how to map contents froma database, probably scale up the project in the future</p>
-                <a href="">Demo <FaLink /></a>
+                <a href="https://dave-webs-bookstore.netlify.app">Demo <FaLink /></a>
             </div>
             <div className="project-list auto-show">
                 <img src={project3} alt="" />
                 <p>Landing Page website for a solar company with working contact form for easy reach out.</p>
-                <a href="">Demo <FaLink /></a>
+                <a href="https://first-sun-solar.netlify.app/">Demo <FaLink /></a>
             </div>
             <div className="project-list auto-show">
                 <img src={project1} alt="" />
                 <p>A practice portfolio website using basic html, css and javascript</p>
-                <a href="">Demo <FaLink /></a>
+                <a href="carpenter-port.netlify.app">Demo <FaLink /></a>
             </div>
             <div className="project-list auto-show">
                 <img src={project2} alt="" />
                 <p>A TicTacToe game, showing Expertise in Javascript</p>
-                <a href="">Demo <FaLink /></a>
+                <a href="https://tic-tac-toe-dave.netlify.app/">Demo <FaLink /></a>
             </div>
             
             
