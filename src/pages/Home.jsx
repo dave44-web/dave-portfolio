@@ -34,6 +34,7 @@ import project2 from '../assets/project2-pc.jfif'
 import project3 from '../assets/project3-pc.png'
 import project4 from '../assets/project4-pc.jfif.png'
 import project5 from '../assets/project5-pc.png'
+import resume from '../assets/my-resume.pdf'
 
 const Home = () => {
 
@@ -72,7 +73,7 @@ const Home = () => {
             </div>
         </div>
         <div className="nav-links">
-            <a href="">Home</a>
+            <a href="#section1">Home</a>
             <a href="#projects">Project</a>
             <a href="#services">Services</a>
             <a href="#contact">Let's Connect</a>
@@ -101,7 +102,7 @@ const Home = () => {
         </div>
     </div>
 
-    <div className="section1">
+    <div className="section1" id='section1'>
         <div className="hero">
             <div className="hero-text">
                 <h1>Hey There 👋 I'm <span>David</span></h1>
@@ -113,7 +114,7 @@ const Home = () => {
                     <a href="https://wa.link/7uuih2"><FaWhatsapp /></a>
                     <a href="https://www.instagram.com/dave_webs22?igsh=MWx0OGZnYXEwOHhtNQ=="><FaInstagram /></a>
                 </div>
-                <a href="" className='resume'>Download Resume <FaDownload /></a>
+                <a href={resume} className='resume'>Download Resume <FaDownload /></a>
             </div>
             <div className="hero-image">
                 <img src={avater} alt="" />
@@ -142,7 +143,7 @@ const Home = () => {
             <div className="project-list auto-show">
                 <img src={project1} alt="" />
                 <p>A practice portfolio website using basic html, css and javascript</p>
-                <a href="carpenter-port.netlify.app">Demo <FaLink /></a>
+                <a href="https://carpenter-port.netlify.app">Demo <FaLink /></a>
             </div>
             <div className="project-list auto-show">
                 <img src={project2} alt="" />
