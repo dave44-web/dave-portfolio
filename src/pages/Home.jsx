@@ -90,7 +90,7 @@ const Home = () => {
         <div className="side-menu" data-visible="false">
             <div className="side-links">
             <p className='close-icon' onClick={() => closeSidebar()}><IoCloseSharp /></p>
-            <a href="" onClick={() => closeSidebar()}>Home</a>
+            <a href="#section1" onClick={() => closeSidebar()}>Home</a>
             <a href="#projects" onClick={() => closeSidebar()}>Project</a>
             <a href="#services" onClick={() => closeSidebar()}>Services</a>
             <a href="#contact" onClick={() => closeSidebar()}>Let's Connect</a>
