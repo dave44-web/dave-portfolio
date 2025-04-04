@@ -27,6 +27,7 @@ import { RiVercelFill } from "react-icons/ri";
 import { SiNetlify } from "react-icons/si";
 import { IoSend } from "react-icons/io5";
 import { SiRender } from "react-icons/si";
+import { LiaToolsSolid } from "react-icons/lia";
 import { FaRegCopyright } from "react-icons/fa6";
 import avater from '../assets/avater.png'
 import project1 from '../assets/project1-pc.jfif'
@@ -56,6 +57,11 @@ const Home = () => {
             sideMenu.getAttribute('data-visible');
             sideMenu.setAttribute('data-visible', false);
         })
+    }
+    
+    function closeSidebar1(){
+        const sideMenu = document.querySelector('.side-menu');
+        sideMenu.setAttribute('data-visible', false);
     }
 
     function onDarkMode() {
@@ -89,11 +95,11 @@ const Home = () => {
 
         <div className="side-menu" data-visible="false">
             <div className="side-links">
-            <p className='close-icon' onClick={() => closeSidebar()}><IoCloseSharp /></p>
-            <a href="#section1" onClick={() => closeSidebar()}>Home</a>
-            <a href="#projects" onClick={() => closeSidebar()}>Project</a>
-            <a href="#services" onClick={() => closeSidebar()}>Services</a>
-            <a href="#contact" onClick={() => closeSidebar()}>Let's Connect</a>
+            <p className='close-icon' onClick={() => closeSidebar1()}><IoCloseSharp /></p>
+            <a href="#section1" onClick={() => closeSidebar1()}>Home</a>
+            <a href="#projects" onClick={() => closeSidebar1()}>Project</a>
+            <a href="#services" onClick={() => closeSidebar1()}>Services</a>
+            <a href="#contact" onClick={() => closeSidebar1()}>Let's Connect</a>
             <div className="icons" onClick={() => onDarkMode()}>
                 <p><IoMdMoon /></p>
                 <p><IoIosSunny /></p>
@@ -165,6 +171,10 @@ const Home = () => {
             <div className="service-list auto-show">
                 <p><IoServer /></p>
                 <p>Back-End Development</p>
+            </div>
+            <div className="service-list auto-show">
+                <p><LiaToolsSolid /></p>
+                <p>Web maintenance and repair</p>
             </div>
         </div>
     </div>

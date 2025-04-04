@@ -323,7 +323,7 @@ body {
 
 .home .section3 .services {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   justify-items: center;
   width: 80%;
@@ -343,7 +343,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 180px;
   padding: 10px;
   height: 150px;
   border-radius: 20px;
@@ -755,7 +755,9 @@ body {
   }
 
   .home .section3 .services {
-    grid-template-columns: repeat(1, 1fr);
+    overflow-x: scroll;
+    scrollbar-color: var(--main-color) transparent;
+    scrollbar-width: thin;
   }
 
   .home .section4 h3 {
