@@ -35,6 +35,7 @@ import project2 from '../assets/project2-pc.jfif'
 import project3 from '../assets/project3-pc.png'
 import project4 from '../assets/project4-pc.jfif.png'
 import project5 from '../assets/project5-pc.png'
+import project6 from '../assets/project6-pc.png'
 import resume from '../assets/my-resume.pdf'
 
 const Home = () => {
@@ -131,6 +132,11 @@ const Home = () => {
     <div className="section2" id='projects'>
         <h2>Projects</h2>
         <div className="projects">
+            <div className="project-list auto-show">
+                <img src={project6} alt="" />
+                <p>MERN-Stack E-commerce website, Using React and Tailwind CSS, Fully responsive with Admin Dashboard and Stripe payment integration</p>
+                <a href="https://forever-buy-frontend.vercel.app/">Demo <FaLink /></a>
+            </div>
             <div className="project-list auto-show">
                 <img src={project5} alt="" />
                 <p>ChatDAVE an AI built to help student with studies and assignment. Gemini API integration, mongoDB for database and ReactJs for framework</p>
